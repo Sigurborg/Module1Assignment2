@@ -1,0 +1,102 @@
+
+/* Here I was working on the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #b9ccd6;
+    padding: 10px;
+  }
+/* backround color */
+
+  body {
+    background-color: rgb(202, 188, 163);
+  }
+
+  h2.pos_left {
+    position: relative;
+    left: -30px;
+  }
+  /* Here I was working on the position property */
+  div.a {
+    width: 150px;
+    height: 80px;
+    background-color: rgb(255, 255, 0);
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+  }
+  
+
+  h2.pos_right {
+    position: relative;
+    left: 90px;
+  }
+  /* grind item */
+
+  .grid-item {
+    background-color: rgba(246, 239, 239, 0.8);
+    border: 1px solid rgba(100, 84, 84, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }/* Here I was working on flex and position */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c515360;
+    padding: 20px 10px;
+  } 
+/* Here I was working on font type */
+  body {
+    font-family: 'Helvetica', Helvetica neue light;
+    padding: 3rem;
+  }
+
+ul {
+    width: 300px;
+    border: 15px solid rgb(235, 216, 181);
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: rgb(223, 215, 177);
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+p {
+    align-content: center;
+    text-align: center;
+  }
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    
+}
+header {
+    text-align: center;
+}
+/* Here I was working on the box modele */
+.boxmodel {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.grass {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid rgb(98, 69, 69);
+    margin: 0;
+}
+
